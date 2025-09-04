@@ -9,7 +9,7 @@
 
 Campus AI require Python and Git. To get started, please following below contents.
 
-Please skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
+Please skip Steps 1, 2 and 3 if you already installed Python3 Git and VSCode on Windows.
 
 ### 1. Install Python, Git and VSCode
 
@@ -20,7 +20,7 @@ Please skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
 https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe
 * Double-click on the installer to run it, and follow the steps in the installer. **Check the box to add Python to your PATH**, and to install `py`. At the end of the installer, there is an option to disable the PATH length limit. It is recommended to click this.
 
-#### 1.2 Install Git 
+#### 1.2 Install Git
 
 * Download [GIT](https://git-scm.com/) from [this link](https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe)
 * Double click on the installer to run it, and follow the steps in the installer.
