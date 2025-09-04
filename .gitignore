@@ -44,6 +44,7 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
+model_cache
 .idea
 nosetests.xml
 coverage.xml
@@ -79,6 +80,7 @@ env.bak/
 venv.bak/
 openvino_env/
 openvino_env*/
+openvino_genai_env/
 
 
 # Spyder project settings
@@ -112,3 +114,15 @@ pipcache_openvino/
 
 # PySpelling generated dictionary
 .ci/spellcheck/dictionary
+
+# Gradio temporary files
+.gradio/
+
+# Models
+models
+dreamlike_anime_1_0_ov
+soulcard.safetensors
+llama-3.2-3b-instruct
+
+# Test data
+people.mp4
