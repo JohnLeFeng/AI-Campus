@@ -1,4 +1,5 @@
 <h1>📚 Campus AI Notebooks</h1>
+
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/LICENSE)
 
 
@@ -9,9 +10,9 @@
 
 Campus AI require Python and Git. To get started, please following below contents.
 
-Please skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
-
 ### 1. Install Python, Git and VSCode
+
+Please skip Steps 1, 2 and 3 if you already installed Python3 Git and VSCode on Windows.
 
 #### 1.1 Install Python
 > **NOTE:** ⚠️The version of Python that is available in the Microsoft Store is not recommended.⚠️ It may require installation of additional packages to work well with OpenVINO and the notebooks.
@@ -20,7 +21,7 @@ Please skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
 https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe
 * Double-click on the installer to run it, and follow the steps in the installer. **Check the box to add Python to your PATH**, and to install `py`. At the end of the installer, there is an option to disable the PATH length limit. It is recommended to click this.
 
-#### 1.2 Install Git 
+#### 1.2 Install Git
 
 * Download [GIT](https://git-scm.com/) from [this link](https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe)
 * Double click on the installer to run it, and follow the steps in the installer.
@@ -32,11 +33,13 @@ https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe
 
 ### 2. Install Drivers for GPU, and NPU (AI PC)
 
-We recommend A "Clean Install" of the WHQL Certified GPU driver to ensure the underlying libraries are correctly configured. 
-https://www.intel.com/content/www/us/en/download/785597/834050/intel-arc-iris-xe-graphics-windows.html
+* GPU
+	We recommend A "Clean Install" of the WHQL Certified GPU driver to ensure the underlying libraries are correctly configured. 
+	https://www.intel.com/content/www/us/en/download/785597/834050/intel-arc-iris-xe-graphics-windows.html
 
-Additionally, for AI PC users, please install the latest NPU driver to avoid any potential issues in compiling NPU kernels.
-https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
+* NPU
+	Additionally, for AI PC users, please install the latest NPU driver to avoid any potential issues in compiling NPU kernels.
+	https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
 
 
 ### 3. Install C++ Redistributable (required) and FFMPEG (optional)
