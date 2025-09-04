@@ -44,6 +44,7 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
+model_cache
 .idea
 nosetests.xml
 coverage.xml
@@ -116,3 +117,12 @@ pipcache_openvino/
 
 # Gradio temporary files
 .gradio/
+
+# Models
+models
+dreamlike_anime_1_0_ov
+soulcard.safetensors
+llama-3.2-3b-instruct
+
+# Test data
+people.mp4
