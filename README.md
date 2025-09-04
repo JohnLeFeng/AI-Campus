@@ -1,4 +1,5 @@
 <h1>📚 Campus AI Notebooks</h1>
+
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/LICENSE)
 
 
