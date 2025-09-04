@@ -32,11 +32,13 @@ https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe
 
 ### 2. Install Drivers for GPU, and NPU (AI PC)
 
-We recommend A "Clean Install" of the WHQL Certified GPU driver to ensure the underlying libraries are correctly configured. 
-https://www.intel.com/content/www/us/en/download/785597/834050/intel-arc-iris-xe-graphics-windows.html
+* GPU
+	We recommend A "Clean Install" of the WHQL Certified GPU driver to ensure the underlying libraries are correctly configured. 
+	https://www.intel.com/content/www/us/en/download/785597/834050/intel-arc-iris-xe-graphics-windows.html
 
-Additionally, for AI PC users, please install the latest NPU driver to avoid any potential issues in compiling NPU kernels.
-https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
+* NPU
+	Additionally, for AI PC users, please install the latest NPU driver to avoid any potential issues in compiling NPU kernels.
+	https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
 
 
 ### 3. Install C++ Redistributable (required) and FFMPEG (optional)
