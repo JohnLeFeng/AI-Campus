@@ -9,9 +9,9 @@
 
 Campus AI require Python and Git. To get started, please following below contents.
 
-Please skip Steps 1, 2 and 3 if you already installed Python3 Git and VSCode on Windows.
-
 ### 1. Install Python, Git and VSCode
+
+Please skip Steps 1, 2 and 3 if you already installed Python3 Git and VSCode on Windows.
 
 #### 1.1 Install Python
 > **NOTE:** ⚠️The version of Python that is available in the Microsoft Store is not recommended.⚠️ It may require installation of additional packages to work well with OpenVINO and the notebooks.
