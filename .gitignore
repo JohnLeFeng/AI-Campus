@@ -82,7 +82,6 @@ openvino_env/
 openvino_env*/
 openvino_genai_env/
 
-
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -123,6 +122,14 @@ models
 dreamlike_anime_1_0_ov
 soulcard.safetensors
 llama-3.2-3b-instruct
+Qwen3-4B
 
-# Test data
+# Image or video data
 people.mp4
+openvino_logo.png
+
+# Repos
+Qwen-Agent
+
+# MCP file
+mcp_*.py
