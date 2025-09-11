@@ -8,11 +8,11 @@
 
 ## 📝 Installation Guide
 
-Campus AI require Python and Git. To get started, please following below contents.
+Campus AI require Python, Git and VSCode. To get started, please following below contents.
 
 ### 1. Install Python, Git and VSCode
 
-Please skip Steps 1, 2 and 3 if you already installed Python3 Git and VSCode on Windows.
+Please skip Steps 1.1, 1.2 and 1.3 if you already installed Python, Git and VSCode on Windows.
 
 #### 1.1 Install Python
 > **NOTE:** ⚠️The version of Python that is available in the Microsoft Store is not recommended.⚠️ It may require installation of additional packages to work well with OpenVINO and the notebooks.
@@ -33,11 +33,11 @@ https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe
 
 ### 2. Install Drivers for GPU, and NPU (AI PC)
 
-* GPU
+* GPU Driver
 	We recommend A "Clean Install" of the WHQL Certified GPU driver to ensure the underlying libraries are correctly configured. 
 	https://www.intel.com/content/www/us/en/download/785597/834050/intel-arc-iris-xe-graphics-windows.html
 
-* NPU
+* NPU Driver
 	Additionally, for AI PC users, please install the latest NPU driver to avoid any potential issues in compiling NPU kernels.
 	https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
 
@@ -105,6 +105,7 @@ Please following below step to use VSCode to launch it.
 	>	| yolov8-optimization | `yolov8-object-detection.ipynb` |  openvino_env |
 	>	| llm-chatbot | `llm-chatbot.ipynb` | openvino_genai_env |
 	>	| llm-chatbot | `llm-chatbot-generate-api.ipynb` | openvino_genai_env |
+	> 	| llm-agent-mcp | `llm-agent-mcp.ipynb` | openvino_genai_env |
 	>	| text-to-image-genai | `text-to-image-genai.ipynb` | openvino_genai_env |
 
 * After it, you can run notebooks.
