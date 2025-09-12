@@ -9,6 +9,7 @@
     - Model Cache
     - Performance Hints
     - Benchmarking
+    - Static shape and dynamic shape
 
 ## Model Demos
 
